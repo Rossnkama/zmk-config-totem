@@ -56,32 +56,9 @@
     combos {
         compatible = "zmk,combos";
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
-            timeout-ms = <70>;
-        };
-
-        opt_backspace {
-            bindings = <&kp LA(BACKSPACE)>;
-            key-positions = <16 17 18>;
-            timeout-ms = <70>;
-        };
-
-        shift {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <13 12>;
-            timeout-ms = <100>;
-        };
-
-        to_digits_layer {
-            bindings = <&to 1>;
-            key-positions = <32 37>;
-        };
-
-        caps-words {
-            bindings = <&caps_word>;
-            key-positions = <11 12 13>;
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <12 17>;
         };
     };
 
