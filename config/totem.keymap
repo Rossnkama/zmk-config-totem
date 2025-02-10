@@ -223,10 +223,10 @@
 
         Firmware {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bootloader
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans        &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_PRV  &bt BT_SEL 0  &trans  &bt BT_NXT
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans        &trans  &trans      &bootloader
+                        &trans  &trans  &trans    &trans  &trans      &trans
             >;
         };
     };
