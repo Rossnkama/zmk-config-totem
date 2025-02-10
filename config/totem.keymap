@@ -46,10 +46,11 @@
 //MAKE_HRM(hml_layer, &mo, &kp, KEYS_R THUMBS) // switch layer like HRM
 
 &mt {
-    quick-tap-ms = <150>;
     flavor = "balanced";
     tapping-term-ms = <200>;
 };
+
+&lt { flavor = "balanced"; };
 
 / {
     combos {
@@ -184,10 +185,10 @@
         Colmak {
             label = "BASE";
             bindings = <
-                   &kp Q              &kp W         &kp F                &kp P            &kp B                    &kp J                      &kp L            &kp U                &kp Y                &kp SEMICOLON
-                   &hml LEFT_SHIFT A  &hml LCTRL R  &hml LEFT_COMMAND S  &hml LEFT_ALT T  &kp G                    &hml CAPS M                &hml LEFT_ALT N  &hml LEFT_COMMAND E  &hml LEFT_CONTROL I  &kp O
-&kp LS(LA(SPACE))  &kp Z              &kp X         &kp C                &kp D            &kp V                    &kp K                      &kp H            &kp COMMA            &kp DOT              &kp SLASH      &kp LG(GRAVE)
-                                                    &mo 3                &lt 1 ENTER      &hml LEFT_CONTROL TAB    &hml LEFT_SHIFT BACKSPACE  &lt 2 SPACE      &lt 4 ESCAPE
+                   &kp Q             &kp W        &kp F               &kp P           &kp B                    &kp J                      &kp L           &kp U               &kp Y               &kp SEMICOLON
+                   &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_COMMAND S  &mt LEFT_ALT T  &kp G                    &mt CAPS M                 &mt LEFT_ALT N  &mt LEFT_COMMAND E  &mt LEFT_CONTROL I  &kp O
+&kp LS(LA(SPACE))  &kp Z             &kp X        &kp C               &kp D           &kp V                    &kp K                      &kp H           &kp COMMA           &kp DOT             &kp SLASH      &kp LG(GRAVE)
+                                                  &mo 3               &lt 1 ENTER     &hml LEFT_CONTROL TAB    &hml LEFT_SHIFT BACKSPACE  &lt 2 SPACE     &lt 4 ESCAPE
             >;
         };
 
