@@ -185,10 +185,10 @@
         Colmak {
             label = "BASE";
             bindings = <
-                   &kp Q             &kp W        &kp F               &kp P           &kp B                    &kp J                      &kp L           &kp U               &kp Y               &kp SEMICOLON
-                   &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_COMMAND S  &mt LEFT_ALT T  &kp G                    &mt CAPS M                 &mt LEFT_ALT N  &mt LEFT_COMMAND E  &mt LEFT_CONTROL I  &kp O
-&kp LS(LA(SPACE))  &kp Z             &kp X        &kp C               &kp D           &kp V                    &kp K                      &kp H           &kp COMMA           &kp DOT             &kp SLASH      &kp LG(GRAVE)
-                                                  &mo 3               &lt 1 ENTER     &hml LEFT_CONTROL TAB    &hml LEFT_SHIFT BACKSPACE  &lt 2 SPACE     &lt 4 ESCAPE
+                   &kp Q             &kp W        &kp F               &kp P           &kp B                   &kp J                     &kp L           &kp U               &kp Y               &kp SEMICOLON
+                   &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_COMMAND S  &mt LEFT_ALT T  &kp G                   &mt CAPS M                &mt LEFT_ALT N  &mt LEFT_COMMAND E  &mt LEFT_CONTROL I  &kp O
+&kp LS(LA(SPACE))  &kp Z             &kp X        &kp C               &kp D           &kp V                   &kp K                     &kp H           &kp COMMA           &kp DOT             &kp SLASH      &kp LG(GRAVE)
+                                                  &mo 3               &lt 1 ENTER     &mt LEFT_CONTROL TAB    &mt LEFT_SHIFT BACKSPACE  &lt 2 SPACE     &lt 4 ESCAPE
             >;
         };
 
@@ -205,20 +205,20 @@
         Navigation {
             label = "Navigation";
             bindings = <
-        &trans  &trans  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS    &trans    &none   &kp C_PREVIOUS    &kp C_PLAY_PAUSE      &kp C_NEXT    &bt BT_NXT
-        &trans  &trans  &hml LEFT_COMMAND LEFT_BRACKET  &hml LALT RIGHT_BRACKET  &trans    &trans  &kp LEFT          &kp DOWN              &kp UP_ARROW  &kp RIGHT
-&trans  &trans  &trans  &kp LEFT_BRACE                  &kp RIGHT_BRACE          &trans    &none   &kp LA(LG(DOWN))  &kp LA(LG(UP_ARROW))  &kp C_VOL_DN  &kp C_VOL_UP  &trans
-                        &kp LG(J)                       &kp K_MUTE               &trans    &trans  &trans            &trans
+        &trans  &trans  &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS   &trans    &none   &kp C_PREVIOUS    &kp C_PLAY_PAUSE      &kp C_NEXT    &bt BT_NXT
+        &trans  &trans  &mt LEFT_COMMAND LEFT_BRACKET  &mt LALT RIGHT_BRACKET  &trans    &trans  &kp LEFT          &kp DOWN              &kp UP_ARROW  &kp RIGHT
+&trans  &trans  &trans  &kp LEFT_BRACE                 &kp RIGHT_BRACE         &trans    &none   &kp LA(LG(DOWN))  &kp LA(LG(UP_ARROW))  &kp C_VOL_DN  &kp C_VOL_UP  &trans
+                        &kp LG(J)                      &kp K_MUTE              &trans    &trans  &trans            &trans
             >;
         };
 
         digits {
             label = "Digits";
             bindings = <
-        &kp PIPE                &kp DOLLAR             &kp LEFT_BRACE               &kp RIGHT_BRACE                 &press_two_keys GREATER_THAN EQUAL    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp SEMICOLON
-        &hml LCTRL EXCLAMATION  &hml LEFT_ALT AT_SIGN  &hml LSHFT LEFT_PARENTHESIS  &lt 2 RIGHT_PARENTHESIS         &press_two_keys MINUS GREATER_THAN    &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
-&trans  &kp AMPERSAND           &kp LCTRL              &mt LESS_THAN LEFT_BRACKET   &mt GREATER_THAN RIGHT_BRACKET  &press_two_keys LESS_THAN EQUAL       &kp MINUS  &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp SLASH
-                                                       &trans                       &trans                          &trans                                &trans     &kp N0  &trans
+        &kp PIPE                &kp DOLLAR             &kp LEFT_BRACE              &kp RIGHT_BRACE                 &press_two_keys GREATER_THAN EQUAL    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp SEMICOLON
+        &hml LCTRL EXCLAMATION  &hml LEFT_ALT AT_SIGN  &mt LSHFT LEFT_PARENTHESIS  &lt 2 RIGHT_PARENTHESIS         &press_two_keys MINUS GREATER_THAN    &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
+&trans  &kp AMPERSAND           &kp LCTRL              &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &press_two_keys LESS_THAN EQUAL       &kp MINUS  &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp SLASH
+                                                       &trans                      &trans                          &trans                                &trans     &kp N0  &trans
             >;
         };
 
