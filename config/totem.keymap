@@ -59,6 +59,7 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <12 17>;
+            timeout-ms = <60>;
         };
     };
 
