@@ -185,7 +185,7 @@
         Colmak {
             label = "BASE";
             bindings = <
-                   &kp Q             &kp W        &lt 3 F              &kp P           &kp B                   &kp J                     &kp L           &kp U               &kp Y               &kp SEMICOLON
+                   &kp Q             &kp W        &kp F                &lt 4 P         &kp B                   &kp J                     &kp L           &kp U               &kp Y               &kp SEMICOLON
                    &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_COMMAND S   &mt LEFT_ALT T  &kp G                   &mt CAPS M                &mt LEFT_ALT N  &mt LEFT_COMMAND E  &mt LEFT_CONTROL I  &kp O
 &kp LS(LA(SPACE))  &kp Z             &kp X        &kp C                &kp D           &kp V                   &kp K                     &kp H           &kp COMMA           &kp DOT             &kp SLASH      &kp LG(GRAVE)
                                                   &lt 3 LS(LA(SPACE))  &lt 1 ENTER     &mt LEFT_CONTROL TAB    &mt LEFT_SHIFT BACKSPACE  &lt 2 SPACE     &lt 4 LG(GRAVE)
